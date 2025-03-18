@@ -16,14 +16,6 @@ git commit -m "Init"
 https://github.com/Niklauswy/exmaen-parcial1/
 
 
-
-### 3) Subir el Repo a GitHub
-```bash
-git init
-git add .
-git commit -m "Init"
-
-
 ### 3) Subir el Repositorio en GitHub
 ```bash
 git branch -M main
@@ -43,12 +35,26 @@ Se editaron los siguientes archivos:
 archivo-falso1.py
 archivo-falso2.py
 
-### 5) Control y seguimiento remoto
+### 6) Control y seguimiento remoto
 
 Se editaron los siguientes archivos:
 
 archivo-falso1.py
 archivo-falso4.py
+
+### 7) Creacion y uso de ramas ( no m sale poner acentos)
+
+a) git branch rama-1
+b) touch archivo-real1.py archivo-real2.py
+c) git checkout rama-1
+   git add archivo-real1.py archivo-real2.py
+   git commit -m "Archivos agregados a rama-1"
+   git push --set-upstream origin rama-1
+d) git checkout main
+   git merge rama-1
+   git push
+
+g) Modifique el readme y agregue esto y yap
 
 
 
